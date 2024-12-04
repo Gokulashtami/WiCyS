@@ -1,0 +1,345 @@
+/* Importing Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.announcements {
+    width:100%;
+    height:8vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 14px;
+    font-family:'Times New Roman',Times,serif;
+    font-size: 20px;
+    background-color:#812c90;
+    color: #ffffff;
+}
+
+/* Navbar */
+.topnav {
+    overflow: hidden;
+    padding: 25px; 
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #601c6c;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.active {
+    background-color: #ecc5f3 ;
+    color: rgb(255, 255, 255);
+}  
+
+/* Hero Section */
+.wicysavv {
+    width:100%;
+    height:49vh;
+    padding:100;
+    align-items: center;
+    text-align: center;
+}
+.wicysavv p{
+    color:#8ed678;
+    font-family:'Trebuchet MS';
+    padding-right: 29.5vw;
+    font-weight: 700;
+    font-size: 25px;
+}
+.wicysavv h1,h2 {
+    font-family:'Times New Roman';
+
+    color:#2e1e65;
+}
+.wicysavv h1 {
+    font-size: 75px;
+    line-height: 70px;
+    font-weight:800
+}    
+.wicysavv h2 {
+    font-size: 50px;
+    padding-top: 10px;
+    font-weight:450;
+    line-height:50px;
+}
+/* Mission Section */
+.mission {
+    padding: 70px;
+    background-color: #F8E9FF;
+}
+
+.mission-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content h3 {
+    color: #4C4C77;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.left-content h1 {
+    color: #002D72;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.mission-buttons {
+    display: flex;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+
+.mission-buttons .btn {
+    background-color: #812c90;
+    color: #FFF;
+    font-size: 18px;
+    padding: 15px 45px;
+    border-radius: 30px;
+    border: none;
+}
+
+.mission-buttons .btn:hover {
+    background-color: #812c90;
+}
+
+.right-content p {
+    color: #1d0932;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+/* Mission Boxes */
+.mission-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: #EAF9E5;
+    padding: 30px;
+    border-radius: 15px;
+    width: 40%;
+    text-align: center;
+}
+
+.box img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    color: #002D72;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.box p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Work Section */
+.work {
+    padding: 100px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.work-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-work h1 {
+    color: #002D72;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.left-work p {
+    width: 40%;
+    line-height: 30px;
+}
+.center-work {
+    padding-right: 100px;
+}
+.right-work {
+    align-items: center;
+}
+.center-work img {
+    height: 330px;
+    border-radius: 20px;
+}
+
+.btn-work {
+    background-color: #812c90;
+    color: #FFF;
+    font-size: 18px;
+    padding: 15px 45px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-work {
+    background-color: #812c90;
+}
+
+/* Collaborate Section */
+.collaborate {
+    padding: 60px 20px;
+    background-color: #EAFFEA;
+    text-align: center;
+}
+.collaborate h1 {
+    color: #002D72;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.collaborate p {
+    font-size: 15px;
+    color: #002D72;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-left:400px;
+    padding-right:400px;
+    line-height: 35px;
+}
+
+.collaborate-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.collaborate .btn {
+    background-color: #812c90;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 6px;
+}
+
+.collaborate .btn:hover {
+    background-color: #5e1e6a ;
+    color: #dadada;
+}
+
+.collaborate-center {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.main-button {
+    background-color: #812c90;
+    color: white;
+    padding: 20px 40px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.main-button:hover {
+    background-color: #5e1e6a ;
+    color: #dadada;
+}
+.floating-buttons {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #F9EAFE;
+    padding: 30px 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.footer-left p {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 25px;
+}
+
+.footer-left .social-icon {
+    width: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    margin-bottom: 10px;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: #002D72;
+    font-size: 1.1rem;
+}
+
+.footer-right ul li a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
